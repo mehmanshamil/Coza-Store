@@ -1,0 +1,233 @@
+#productSection .container #products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 40px;
+}
+#productSection .container #products .box {
+  width: 250px;
+  height: 20rem;
+}
+#productSection .container #products .box img {
+  width: 100%;
+}
+#productSection .container #products .box button {
+  color: #fff;
+  background-color: red;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid red;
+  transition: 1s;
+}
+#productSection .container #products .box button:hover {
+  color: red;
+  background-color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header .head-text {
+  background-color: black;
+}
+header .head-text .container .head {
+  flex-wrap: wrap;
+  color: #b2b2b2 !important;
+}
+header .head-text .container .head .text p {
+  margin: 0;
+  padding: 0;
+}
+header .head-text .container .head .menumin {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+header .head-text .container .head .menumin li {
+  border-left: 1px solid #b2b2b2;
+  padding: 10px 20px;
+  transition: 1s;
+  cursor: pointer;
+}
+header .head-text .container .head .menumin li:hover {
+  color: #6c7ae0;
+}
+header .container .navbar {
+  background: transparent;
+}
+header .container .navbar a img {
+  padding-right: 1.5rem;
+}
+header .container .navbar .collapse .navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+header .container .navbar .collapse .navbar-nav .nav-item .dropdown {
+  color: #6c7ae0 !important;
+}
+header .container .navbar .collapse .navbar-nav .nav-item .dropdown:hover .dropdown-menu {
+  display: block;
+}
+header .container .navbar .collapse .shareMore a {
+  position: relative;
+}
+header .container .navbar .collapse .shareMore a i {
+  color: black;
+  font-size: 1.2rem;
+  transition: 1s;
+}
+header .container .navbar .collapse .shareMore a i:hover {
+  cursor: pointer;
+  color: #6c7ae0;
+}
+header .container .navbar .collapse .shareMore a #dispLength {
+  position: absolute;
+  top: -15px;
+  color: #fff;
+  background-color: #6c7ae0;
+  width: 20px;
+  height: 25px;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  right: -10px;
+}
+header .container .navbar .collapse i {
+  font-size: 1.2rem;
+  transition: 1s;
+}
+header .container .navbar .collapse i:hover {
+  cursor: pointer;
+  color: #6c7ae0;
+}
+
+#shop {
+  width: 100%;
+  height: 30rem;
+  background-image: url("../../../assets/Image/slide-02.jpg");
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+#shop .text {
+  margin-left: 2rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#shop .text .menText {
+  font-weight: bold;
+  font-size: 2rem;
+}
+#shop .text .JackText {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+#shop .text button {
+  width: 100px;
+  color: #fff;
+  border: 1px solid #6c7ae0;
+  background-color: #6c7ae0;
+  border-radius: 20px;
+  padding: 5px;
+  transition: 1s;
+}
+#shop .text button:hover {
+  color: #6c7ae0;
+  background-color: #fff;
+}
+
+#list .container .row .col-xl-4 {
+  margin-top: 1rem;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+#list .container .row .col-xl-4 .txt .women {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#list .container .row .col-xl-4 p {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#list .container .row .col-xl-4 .img img {
+  width: 10rem;
+}
+
+#overview .owerview {
+  font-size: 2rem;
+  font-weight: bold;
+}
+#overview .prducts ul {
+  list-style-type: none;
+  gap: 20px;
+}
+#overview .prducts ul li {
+  color: #888;
+  cursor: pointer;
+}
+#overview .prducts .iconsFiltandSrch .d-flex a {
+  color: black;
+  text-decoration: none;
+  opacity: 7;
+  padding: 10px;
+  background-color: #FFF;
+  border: 1px solid #F8F8F8;
+  transition: 1s;
+  border-radius: 7px;
+}
+#overview .prducts .iconsFiltandSrch .d-flex a:hover {
+  background-color: #6c7ae0;
+  color: #fff !important;
+}
+#overview .prducts .iconsFiltandSrch .d-flex a:hover span {
+  color: #FFF !important;
+}
+#overview .prducts .iconsFiltandSrch .d-flex a span {
+  color: #888;
+}
+
+#productSec .container #products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 40px;
+}
+#productSec .container #products .box {
+  width: 250px;
+  height: 20rem;
+}
+#productSec .container #products .box img {
+  width: 100%;
+}
+#productSec .container #products .box button {
+  color: #fff;
+  background-color: green;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid green;
+  transition: 1s;
+}
+#productSec .container #products .box button:hover {
+  color: green;
+  background-color: #fff;
+}
+#productSec .container .buttons button {
+  margin: 1rem;
+  color: #fff;
+  background-color: black;
+  transition: 1s;
+  border-radius: 30px;
+  padding: 10px;
+}
+#productSec .container .buttons button:hover {
+  background-color: #fff;
+  color: black;
+}
