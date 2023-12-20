@@ -21,6 +21,7 @@ function removeCart(index) {
     cart.splice(index, 1)
     localStorage.setItem("cart", JSON.stringify(cart));
     getData()
+
 }
 function display(data) {
     products.innerHTML = ""
